@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+dask[dataframe]
+sqlalchemy
+pandas
