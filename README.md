@@ -11,7 +11,7 @@ Repository ini berisi aplikasi **FastAPI sederhana** yang digunakan untuk menamp
 
 ## 📌 Deskripsi Singkat
 
-Aplikasi ini menyediakan REST API berbasis FastAPI yang mengembalikan data sensor dalam format **JSON**. Data yang ditampilkan masih berupa **data statis (dummy)** dan digunakan untuk keperluan pengujian layanan API serta implementasi Docker.
+Aplikasi ini menyediakan REST API berbasis FastAPI yang mengembalikan data sensor dalam format **JSON**. Data yang ditampilkan berupa **data statis** dan digunakan untuk keperluan pengujian layanan API serta implementasi Docker.
 
 ---
 
@@ -85,5 +85,3 @@ Berikut adalah contoh data JSON yang dihasilkan oleh endpoint `/sensor`:
 * Aplikasi ini menggunakan database SQLite lokal
 * Fokus utama proyek adalah memastikan API dapat berjalan dengan baik di dalam container Docker.
 
-
-Jika diperlukan, aplikasi ini dapat dikembangkan lebih lanjut dengan integrasi database, autentikasi, maupun deployment ke cloud server.
